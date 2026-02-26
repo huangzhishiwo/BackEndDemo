@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.json({ 
-    message: '欢迎使用后端API！',
+    message: '欢迎使用huangzhishiwo后端API！',
     status: '运行正常',
     time: new Date().toISOString()
   });
